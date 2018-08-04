@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="mattrumble.mattssudokusolver.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_clearAll"
+        android:orderInCategory="200"
+        android:title="Clear all"
+        android:icon="@drawable/ic_delete"
+        app:showAsAction="always"
+        android:onClick="clearAllButtonClick"/>
+    <item
+        android:id="@+id/action_solve"
+        android:orderInCategory="300"
+        android:title="Solve"
+        android:icon="@drawable/ic_solve"
+        app:showAsAction="always"
+        android:onClick="solveButtonClick" />
+</menu>
